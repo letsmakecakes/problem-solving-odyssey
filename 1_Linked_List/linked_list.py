@@ -124,16 +124,13 @@ class LinkedList:
             index: The index of the node whose value is to be retrieved.
 
         Returns:
-            The value of the node at the specified index, or None if the index is out of bounds or the list is empty.
+            The value of the node at the specified index, or None if the index is invalid.
         """
-        if self.length == 0:
-            return None
-
-        if index >= self.length:
+        if index >= self.length or index < 0:
             return None
 
         temp = self.head
-        for _ in range(0, index):
+        for _ in range(index):
             temp = temp.next
 
         return temp.value
