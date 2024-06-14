@@ -142,11 +142,3 @@ class LinkedList:
         while temp is not None:
             print(temp.value)
             temp = temp.next
-
-
-my_linked_list = LinkedList(1)
-my_linked_list.append(2)
-my_linked_list.prepend(3)
-my_linked_list.print_list()
-
-print("value at index 1", my_linked_list.get(1))
