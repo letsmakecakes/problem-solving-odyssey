@@ -46,4 +46,4 @@ print("String : [][]]] Balanced or not?")
 print(is_paren_balanced("[][]]]"))
 
 print("String : [][] Balanced or not?")
-print(is_paren_balanced("[][]"))
+print(is_paren_balanced("[()]{}{[()()]()}"))
