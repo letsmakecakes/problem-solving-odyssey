@@ -22,16 +22,20 @@ class Node:
 class LinkedList:
     """A class representing a linked list."""
 
-    def __init__(self, value):
+    def __init__(self, value=None):
         """Initialize a linked list with a head node containing the given value.
 
         Args:
             value: The value for the head node of the linked list.
         """
-        new_node = Node(value)
-        self.head = new_node
-        self.tail = new_node
-        self.length = 1
+        self.head = None
+        self.tail = None
+        self.length = 0
+        if value is not None:
+            new_node = Node(value)
+            self.head = new_node
+            self.tail = new_node
+            self.length = 1
 
     def append(self, value):
         """Append a new node with the given value to the end of the linked list.
@@ -47,11 +51,10 @@ class LinkedList:
         if self.head is None:
             self.head = new_node
             self.tail = new_node
-            self.length += 1
         else:
             self.tail.next = new_node
             self.tail = new_node
-            self.length += 1
+        self.length += 1
         return True
 
     def prepend(self, value):
@@ -68,11 +71,10 @@ class LinkedList:
         if self.head is None:
             self.head = new_node
             self.tail = new_node
-            self.length += 1
         else:
             new_node.next = self.head
             self.head = new_node
-            self.length += 1
+        self.length += 1
         return True
 
     def pop(self):
@@ -124,7 +126,7 @@ class LinkedList:
             index: The index of the node whose value is to be retrieved.
 
         Returns:
-            The value of the node at the specified index, or None if the index is invalid.
+            The node at the specified index, or None if the index is invalid.
         """
         if index >= self.length or index < 0:
             return None
@@ -133,7 +135,91 @@ class LinkedList:
         for _ in range(index):
             temp = temp.next
 
-        return temp.value
+        return temp
+
+    def set_value(self, index, value):
+        """Set the value of the node at the specified index.
+
+        Args:
+            index: The index of the node whose value is to be set.
+            value: The new value to set for the node.
+
+        Returns:
+            bool: True if the value is successfully set, False if the index is invalid.
+        """
+        temp = self.get(index)
+
+        if temp:
+            temp.value = value
+            return True
+        return False
+
+    def insert(self, index, value):
+        """Insert a new node with the given value at the specified index.
+
+        Args:
+            index: The position where the new node should be inserted.
+            value: The value for the new node.
+
+        Returns:
+            bool: True if the node is successfully inserted, False if the index is invalid.
+        """
+        if index > self.length or index < 0:
+            return False
+
+        if index == 0:
+            return self.prepend(value)
+
+        if index == self.length:
+            return self.append(value)
+
+        new_node = Node(value)
+        temp = self.get(index - 1)
+        new_node.next = temp.next
+        temp.next = new_node
+        self.length += 1
+
+        return True
+
+    def remove(self, index):
+        """Remove the node at the specified index.
+
+        Args:
+            index: The index of the node to be removed.
+
+        Returns:
+            The removed node, or None if the index is invalid.
+        """
+        if index >= self.length or index < 0:
+            return None
+
+        if index == 0:
+            return self.pop_first()
+
+        if index == self.length - 1:
+            return self.pop()
+
+        prev = self.get(index - 1)
+        temp = prev.next
+        prev.next = temp.next
+        temp.next = None
+        self.length -= 1
+
+        return temp
+
+    def reverse(self):
+        """Reverse the order of nodes in the linked list."""
+        temp = self.head
+        self.head = self.tail
+        self.tail = temp
+        after = temp.next
+        before = None
+
+        for _ in range(self.length):
+            after = temp.next
+            temp.next = before
+            before = temp
+            temp = after
 
     def print_list(self):
         """Print the values of all nodes in the linked list."""
