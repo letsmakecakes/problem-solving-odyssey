@@ -8,7 +8,6 @@ The module includes:
 
 class Node:
     """A class representing a node in a linked list."""
-
     def __init__(self, value):
         """Initialize a node with a given value.
 
@@ -21,7 +20,6 @@ class Node:
 
 class LinkedList:
     """A class representing a linked list."""
-
     def __init__(self, value=None):
         """Initialize a linked list with a head node containing the given value.
 
@@ -88,16 +86,19 @@ class LinkedList:
 
         temp = self.head
         pre = self.head
-        while temp.next is not None:
-            pre = temp
-            temp = temp.next
-        self.tail = pre
-        self.tail.next = None
-        self.length -= 1
-        if self.length == 0:
+
+        # Handle the case when there's only one node
+        if self.length == 1:
             self.head = None
             self.tail = None
-
+        else:
+            while temp.next is not None:
+                pre = temp
+                temp = temp.next
+            self.tail = pre
+            self.tail.next = None
+        
+        self.length -= 1
         return temp.value
 
     def pop_first(self):
@@ -168,10 +169,12 @@ class LinkedList:
             return False
 
         if index == 0:
-            return self.prepend(value)
+            self.prepend(value)
+            return True
 
         if index == self.length:
-            return self.append(value)
+            self.append(value)
+            return True
 
         new_node = Node(value)
         temp = self.get(index - 1)
@@ -209,17 +212,22 @@ class LinkedList:
 
     def reverse(self):
         """Reverse the order of nodes in the linked list."""
+        if self.length <= 1:  # No need to reverse if list is empty or has only 1 node
+            return
+
         temp = self.head
         self.head = self.tail
         self.tail = temp
-        after = temp.next
+
         before = None
 
-        for _ in range(self.length):
+        # Traverse and reverse pointers
+        while temp is not None:
             after = temp.next
             temp.next = before
             before = temp
             temp = after
+
 
     def print_list(self):
         """Print the values of all nodes in the linked list."""
