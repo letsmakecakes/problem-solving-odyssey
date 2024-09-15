@@ -8,6 +8,7 @@ The module includes:
 
 class Node:
     """A class representing a node in a linked list."""
+
     def __init__(self, value):
         """Initialize a node with a given value.
 
@@ -20,6 +21,7 @@ class Node:
 
 class LinkedList:
     """A class representing a linked list."""
+
     def __init__(self, value=None):
         """Initialize a linked list with a head node containing the given value.
 
@@ -97,7 +99,7 @@ class LinkedList:
                 temp = temp.next
             self.tail = pre
             self.tail.next = None
-        
+
         self.length -= 1
         return temp.value
 
@@ -227,7 +229,6 @@ class LinkedList:
             temp.next = before
             before = temp
             temp = after
-
 
     def print_list(self):
         """Print the values of all nodes in the linked list."""
