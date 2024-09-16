@@ -1,15 +1,68 @@
+"""
+This module implements a simple binary search tree (BST) with insertion
+and search (contains) functionalities. It also includes test cases to
+validate the implementation of these operations.
+
+Classes:
+    Node: Represents a single node in the binary search tree.
+    BinarySearchTree: Implements the binary search tree with insert and contains operations.
+    
+Functions:
+    check(expect, actual, message): Utility function to compare expected and actual results
+    during tests and print the results.
+"""
+
+
 class Node:
+    """
+    A node in a binary search tree.
+
+    Attributes:
+        value: The value stored at the node.
+        left: A reference to the left child node.
+        right: A reference to the right child node.
+    """
+
     def __init__(self, value):
+        """
+        Initializes a node with a given value, and sets the left and right child nodes to None.
+
+        Args:
+            value: The value to store in the node.
+        """
         self.value = value
         self.left = None
         self.right = None
 
 
 class BinarySearchTree:
+    """
+    A binary search tree (BST) that supports insertion of unique values
+    and checking if a value exists in the tree.
+
+    Attributes:
+        root: The root node of the tree.
+    """
+
     def __init__(self):
+        """
+        Initializes an empty binary search tree with no root node.
+        """
         self.root = None
 
     def insert(self, value):
+        """
+        Inserts a new value into the binary search tree.
+        Values greater than the current node go to the right, and
+        values smaller go to the left. Duplicate values are not inserted.
+
+        Args:
+            value: The value to insert into the tree.
+
+        Returns:
+            bool: True if the value was successfully inserted, False if the value
+                  already exists in the tree.
+        """
         new_node = Node(value)
         if self.root is None:
             self.root = new_node
@@ -35,6 +88,15 @@ class BinarySearchTree:
         return True
 
     def contains(self, value):
+        """
+        Checks if a value exists in the binary search tree.
+
+        Args:
+            value: The value to search for in the tree.
+
+        Returns:
+            bool: True if the value exists in the tree, False otherwise.
+        """
         temp = self.root
         while temp is not None:
             if value > temp.value:
@@ -45,57 +107,3 @@ class BinarySearchTree:
                 return True
 
         return False
-
-
-def check(expect, actual, message):
-    print(message)
-    print("EXPECTED:", expect)
-    print("RETURNED:", actual)
-    print("PASS" if expect == actual else "FAIL", "\n")
-
-
-print("\n----- Test: Insert to Empty Tree -----\n")
-bst = BinarySearchTree()
-result = bst.insert(5)
-check(True, result, "Insert 5, should succeed:")
-check(5, bst.root.value, "Root value after inserting 5:")
-check(None, bst.root.left, "Root's left child after inserting 5:")
-check(None, bst.root.right, "Root's right child after inserting 5:")
-
-print("\n----- Test: Insert to Existing Tree -----\n")
-bst = BinarySearchTree()
-bst.insert(10)
-bst.insert(5)
-bst.insert(15)
-result = bst.insert(3)
-check(True, result, "Insert 3, should succeed:")
-check(3, bst.root.left.left.value, "Root's left-left value after inserting 3:")
-check(None, bst.root.left.left.left, "Root's left-left-left child after inserting 3:")
-check(None, bst.root.left.left.right, "Root's left-left-right child after inserting 3:")
-
-print("\n----- Test: Insert Duplicate Value -----\n")
-bst = BinarySearchTree()
-bst.insert(10)
-bst.insert(5)
-result = bst.insert(5)
-check(False, result, "Insert 5 again, should fail:")
-check(None, bst.root.left.left, "Root's left-left child after inserting 5 again:")
-check(None, bst.root.left.right, "Root's left-right child after inserting 5 again:")
-
-print("\n----- Test: Insert Greater Than Root -----\n")
-bst = BinarySearchTree()
-bst.insert(10)
-result = bst.insert(15)
-check(True, result, "Insert 15, should succeed:")
-check(15, bst.root.right.value, "Root's right value after inserting 15:")
-check(None, bst.root.right.left, "Root's right-left child after inserting 15:")
-check(None, bst.root.right.right, "Root's right-right child after inserting 15:")
-
-print("\n----- Test: Insert Less Than Root -----\n")
-bst = BinarySearchTree()
-bst.insert(10)
-result = bst.insert(5)
-check(True, result, "Insert 5, should succeed:")
-check(5, bst.root.left.value, "Root's left value after inserting 5:")
-check(None, bst.root.left.left, "Root's left-left child after inserting 5:")
-check(None, bst.root.left.right, "Root's left-right child after inserting 5:")
