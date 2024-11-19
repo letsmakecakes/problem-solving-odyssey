@@ -6,7 +6,7 @@ validate the implementation of these operations.
 Classes:
     Node: Represents a single node in the binary search tree.
     BinarySearchTree: Implements the binary search tree with insert and contains operations.
-    
+
 Functions:
     check(expect, actual, message): Utility function to compare expected and actual results
     during tests and print the results.
@@ -107,3 +107,68 @@ class BinarySearchTree:
                 return True
 
         return False
+
+    def __r_contains(self, current_node, value):
+        """
+        Recursively checks if a value exists in the binary search tree.
+
+        Args:
+            current_node (Node): The current node being checked.
+            value: The value to search for.
+
+        Returns:
+            bool: True if the value exists, False otherwise.
+        """
+        if current_node is None:
+            return False
+
+        if current_node.value == value:
+            return True
+
+        if value < current_node.value:
+            return self.__r_contains(current_node.left, value)
+
+        return self.__r_contains(current_node.right, value)
+
+    def r_contains(self, value):
+        """
+        Public method to initiate a recursive search for a value in the tree.
+
+        Args:
+            value: The value to search for.
+
+        Returns:
+            bool: True if the value exists, False otherwise.
+        """
+        return self.__r_contains(self.root, value)
+
+    def __r_insert(self, current_node, value):
+        """
+        Recursively inserts a value into the binary search tree.
+
+        Args:
+            current_node (Node): The current node being checked.
+            value: The value to insert.
+
+        Returns:
+            Node: The current node after insertion.
+        """
+        if current_node is None:
+            return Node(value)
+        if value < current_node.value:
+            current_node.left = self.__r_insert(current_node.left, value)
+        elif value > current_node.value:
+            current_node.right = self.__r_insert(current_node.right, value)
+        return current_node
+
+    def r_insert(self, value):
+        """
+        Public method to initiate recursive insertion of a value into the tree.
+
+        Args:
+            value: The value to insert into the tree.
+        """
+        if self.root is None:
+            self.root = Node(value)
+        else:
+            self.__r_insert(self.root, value)
