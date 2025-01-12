@@ -138,6 +138,7 @@ Happy Learning! If you find this repository helpful, consider giving it a star ð
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -151,6 +152,7 @@ Happy Learning! If you find this repository helpful, consider giving it a star ð
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -158,10 +160,12 @@ Happy Learning! If you find this repository helpful, consider giving it a star ð
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
