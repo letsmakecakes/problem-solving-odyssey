@@ -3,6 +3,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/letsmakecakes/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 ## Two Pointers
@@ -16,6 +17,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/letsmakecakes/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 ## Divide and Conquer
 |  |
