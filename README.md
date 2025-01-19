@@ -37,6 +37,7 @@
 | [0098-validate-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 ## Binary Tree
 |  |
 | ------- |
@@ -57,4 +58,24 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
+## Array
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+## Hash Table
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+## Sorting
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
