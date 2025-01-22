@@ -79,6 +79,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/letsmakecakes/DSA/tree/master/0001-two-sum) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 ## Math
 |  |
 | ------- |
@@ -88,14 +89,17 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 ## Sorting
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 ## String
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/letsmakecakes/DSA/tree/master/0005-longest-palindromic-substring) |
+| [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
 ## Dynamic Programming
 |  |
