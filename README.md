@@ -12,6 +12,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/letsmakecakes/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
+| [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
 ## Stack
 |  |
 | ------- |
@@ -91,6 +92,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/letsmakecakes/DSA/tree/master/0005-longest-palindromic-substring) |
+| [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
 ## Dynamic Programming
 |  |
 | ------- |
