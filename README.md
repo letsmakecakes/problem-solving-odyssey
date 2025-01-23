@@ -78,6 +78,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/letsmakecakes/DSA/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/letsmakecakes/DSA/tree/master/0004-median-of-two-sorted-arrays) |
+| [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
 ## Hash Table
@@ -90,6 +91,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/letsmakecakes/DSA/tree/master/0002-add-two-numbers) |
+| [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 ## Bit Manipulation
