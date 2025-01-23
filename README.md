@@ -87,6 +87,7 @@
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
+| [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Hash Table
 |  |
@@ -112,6 +113,7 @@
 | ------- |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
+| [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 ## String
 |  |
 | ------- |
