@@ -81,6 +81,7 @@
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
+| [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -94,6 +95,7 @@
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+| [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Bit Manipulation
 |  |
 | ------- |
