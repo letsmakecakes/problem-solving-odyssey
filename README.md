@@ -21,6 +21,7 @@
 | [0020-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/letsmakecakes/DSA/tree/master/0155-min-stack) |
 ## Recursion
 |  |
 | ------- |
@@ -141,4 +142,8 @@
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/letsmakecakes/DSA/tree/master/0459-repeated-substring-pattern) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/letsmakecakes/DSA/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
