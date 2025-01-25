@@ -88,6 +88,7 @@
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
+| [0932-monotonic-array](https://github.com/letsmakecakes/DSA/tree/master/0932-monotonic-array) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Hash Table
