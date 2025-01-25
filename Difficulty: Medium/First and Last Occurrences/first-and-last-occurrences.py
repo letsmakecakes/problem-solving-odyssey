@@ -3,14 +3,19 @@
 
 class Solution:
     def find(self, arr, x):
-        # Find the first and last occurences of x in arr
-        occurences = [i for i, num in enumerate(arr) if num == x]
+        if not arr: # Handle empty array
+            return [-1, -1]
+            
+        first, last = -1, -1
         
-        # Return the first and last occurences
-        if occurences:
-            return [occurences[0], occurences[-1]]
-        else:
-            return [-1, -1]  # Return [-1, -1] if x is not found
+        #Single pass through the array
+        for i, num in enumerate(arr):
+            if num == x:
+                if first == -1: # First occurrence
+                    first = i
+                last = i # Update the las occurrence
+        
+        return [first, last]
 
 #{ 
  # Driver Code Starts
