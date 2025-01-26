@@ -22,6 +22,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/letsmakecakes/DSA/tree/master/0155-min-stack) |
+| [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 ## Recursion
 |  |
 | ------- |
@@ -90,6 +91,7 @@
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
+| [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 | [0932-monotonic-array](https://github.com/letsmakecakes/DSA/tree/master/0932-monotonic-array) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
@@ -101,6 +103,7 @@
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
+| [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 ## Math
 |  |
 | ------- |
@@ -146,4 +149,8 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/letsmakecakes/DSA/tree/master/0155-min-stack) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
