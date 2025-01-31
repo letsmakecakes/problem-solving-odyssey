@@ -29,6 +29,7 @@
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/letsmakecakes/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/letsmakecakes/DSA/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/letsmakecakes/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 ## Recursion
 |  |
@@ -171,8 +172,13 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/letsmakecakes/DSA/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/letsmakecakes/DSA/tree/master/0225-implement-stack-using-queues) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/letsmakecakes/DSA/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
