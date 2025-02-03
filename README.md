@@ -105,6 +105,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/letsmakecakes/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0056-merge-intervals](https://github.com/letsmakecakes/DSA/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/letsmakecakes/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
@@ -163,6 +164,7 @@
 | [0005-longest-palindromic-substring](https://github.com/letsmakecakes/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0032-longest-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## String Matching
 |  |
 | ------- |
