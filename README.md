@@ -15,6 +15,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/letsmakecakes/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/letsmakecakes/DSA/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
@@ -105,6 +106,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/letsmakecakes/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0056-merge-intervals](https://github.com/letsmakecakes/DSA/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
+| [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/letsmakecakes/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0179-largest-number](https://github.com/letsmakecakes/DSA/tree/master/0179-largest-number) |
@@ -144,6 +146,7 @@
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/letsmakecakes/DSA/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/letsmakecakes/DSA/tree/master/0179-largest-number) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
