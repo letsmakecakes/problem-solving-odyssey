@@ -6,9 +6,31 @@
 #         self.right = right
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        def traverse(node):
-            if not node:
-                return []
-            return traverse(node.left) + [node.val] + traverse(node.right)
+        """
+        Performs an inorder traversal of a binary tree iteratively.
+
+        Args:
+            root: Root node of the binary tree
         
-        return traverse(root)
+        Returns:
+            List of node values in inorder traversal order
+
+        Time Complexity: O(n) where n is the number of nodes
+        Space Complexity: O(h) where h is the height of the tree
+        """
+        result = []
+        stack = []
+        current = root
+
+        while current or stack:
+            # Traverse to the leftmost node
+            while current:
+                stack.append(current)
+                current = current.left
+            
+            # Process current node and move to the right subtree
+            current = stack.pop()
+            result.append(current.val)
+            current = current.right
+        
+        return result
