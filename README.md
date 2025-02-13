@@ -41,6 +41,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/letsmakecakes/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/letsmakecakes/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
+| [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -143,6 +144,7 @@
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/letsmakecakes/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Bit Manipulation
@@ -179,6 +181,7 @@
 | [0032-longest-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
 ## String Matching
 |  |
 | ------- |
