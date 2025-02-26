@@ -1,14 +1,11 @@
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        size = len(nums)
-        def r_contains(nums, size):
-            if size == -1:
-                return
-            
-            if size not in nums:
-                return size
-            
-            return r_contains(nums, size - 1)
-        
-        return r_contains(nums, size)
-            
+        # Calculate expected sum of numbers from 0 to n
+        n = len(nums)
+        expected_sum = n * (n + 1) // 2
+
+        # Calculate actual sum of elements in nums
+        actual_sum = sum(nums)
+
+        # The difference is the missing number
+        return expected_sum - actual_sum
