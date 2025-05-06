@@ -21,6 +21,7 @@
 | [0125-valid-palindrome](https://github.com/letsmakecakes/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/letsmakecakes/DSA/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/letsmakecakes/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
 | [0908-middle-of-the-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0908-middle-of-the-linked-list) |
 | [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
@@ -76,6 +77,7 @@
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/letsmakecakes/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 ## Binary Tree
@@ -124,6 +126,7 @@
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/letsmakecakes/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/letsmakecakes/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/letsmakecakes/DSA/tree/master/0179-largest-number) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
