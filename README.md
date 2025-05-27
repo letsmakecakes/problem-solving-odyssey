@@ -11,6 +11,7 @@
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0147-insertion-sort-list](https://github.com/letsmakecakes/DSA/tree/master/0147-insertion-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/letsmakecakes/DSA/tree/master/0203-remove-linked-list-elements) |
+| [0838-design-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
@@ -219,6 +220,7 @@
 | ------- |
 | [0155-min-stack](https://github.com/letsmakecakes/DSA/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/letsmakecakes/DSA/tree/master/0225-implement-stack-using-queues) |
+| [0838-design-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0838-design-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
