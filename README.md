@@ -11,6 +11,7 @@
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0147-insertion-sort-list](https://github.com/letsmakecakes/DSA/tree/master/0147-insertion-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/letsmakecakes/DSA/tree/master/0203-remove-linked-list-elements) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0838-design-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
@@ -26,6 +27,7 @@
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/letsmakecakes/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0908-middle-of-the-linked-list) |
 | [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
 ## Stack
