@@ -75,6 +75,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/letsmakecakes/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/letsmakecakes/DSA/tree/master/0764-n-ary-tree-level-order-traversal) |
 ## Binary Search Tree
@@ -103,6 +104,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/letsmakecakes/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -115,6 +117,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/letsmakecakes/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -125,6 +128,7 @@
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/letsmakecakes/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/letsmakecakes/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0226-invert-binary-tree) |
+| [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/letsmakecakes/DSA/tree/master/0764-n-ary-tree-level-order-traversal) |
 ## Array
