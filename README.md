@@ -78,6 +78,7 @@
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/letsmakecakes/DSA/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -106,6 +107,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -119,6 +121,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/letsmakecakes/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -131,6 +134,7 @@
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/letsmakecakes/DSA/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Array
 |  |
 | ------- |
