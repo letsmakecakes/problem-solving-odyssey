@@ -1,12 +1,22 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        min_price = prices[0] # Directly initialize with the first price
+        """
+        Calculate maximum profit from buying and selling stock once.
+
+        Args:
+            prices: List of stock prices where prices[i] is the price on day i
+
+        Returns:
+            Maximum profit achievable, or 0 if no profit possible
+        """
+        if len(prices) < 2:
+            return 0
+        
+        min_price = float('inf')
         max_profit = 0
 
-        for price in prices[1:]:    # Start from the second element
-            if price < min_price:
-                min_price = price   # Update min_price
-            elif price - min_price > max_profit:
-                max_profit = price - min_price # Update max_profit
+        for price in prices:
+            min_price = min(min_price, price)
+            max_profit = max(max_profit, price - min_price)
         
         return max_profit
