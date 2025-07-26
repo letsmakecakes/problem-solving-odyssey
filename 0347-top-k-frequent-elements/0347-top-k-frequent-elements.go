@@ -1,22 +1,31 @@
-import (
-    "sort"
-)
-
 func topKFrequent(nums []int, k int) []int {
+    if len(nums) == 0 || k == 0 {
+        return []int{}
+    }
+
+    // Count frequencies
     freqMap := make(map[int]int)
-    
     for _, num := range nums {
         freqMap[num]++
     }
 
-    unique := make([]int, 0, len(freqMap))
-    for num := range freqMap {
-        unique = append(unique, num)
+    // Create buckets where index represents frequency
+    buckets := make([][]int, len(nums)+1)
+    for num, freq := range freqMap {
+        buckets[freq] = append(buckets[freq], num)
     }
 
-    sort.Slice(unique, func(i, j int) bool {
-        return freqMap[unique[i]] > freqMap[unique[j]]
-    })
+    // Collect top k elements from highest frequency buckets
+    result := make([]int, 0, k)
+    for i := len(buckets) - 1; i >= 0 && len(result) < k; i-- {
+        for _, num := range buckets[i] {
+            if len(result) < k {
+                result = append(result, num)
+            } else  {
+                break
+            }
+        }
+    }
 
-    return unique[:k]
+    return result
 }
