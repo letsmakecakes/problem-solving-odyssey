@@ -61,6 +61,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/letsmakecakes/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 ## Tree
 |  |
 | ------- |
@@ -156,6 +157,7 @@
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/letsmakecakes/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 | [0932-monotonic-array](https://github.com/letsmakecakes/DSA/tree/master/0932-monotonic-array) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
@@ -170,6 +172,7 @@
 | [0141-linked-list-cycle](https://github.com/letsmakecakes/DSA/tree/master/0141-linked-list-cycle) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 | [1904-second-largest-digit-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/1904-second-largest-digit-in-a-string) |
@@ -203,6 +206,7 @@
 | [0179-largest-number](https://github.com/letsmakecakes/DSA/tree/master/0179-largest-number) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 ## String
@@ -268,4 +272,20 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/letsmakecakes/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
