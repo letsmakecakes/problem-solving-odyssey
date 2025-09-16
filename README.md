@@ -23,6 +23,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/letsmakecakes/DSA/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/letsmakecakes/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/letsmakecakes/DSA/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
@@ -152,6 +153,7 @@
 | [0056-merge-intervals](https://github.com/letsmakecakes/DSA/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/letsmakecakes/DSA/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/letsmakecakes/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/letsmakecakes/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -205,6 +207,7 @@
 | [0015-3sum](https://github.com/letsmakecakes/DSA/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/letsmakecakes/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/letsmakecakes/DSA/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/letsmakecakes/DSA/tree/master/0147-insertion-sort-list) |
 | [0179-largest-number](https://github.com/letsmakecakes/DSA/tree/master/0179-largest-number) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
