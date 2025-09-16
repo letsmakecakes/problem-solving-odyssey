@@ -21,6 +21,7 @@
 | [0015-3sum](https://github.com/letsmakecakes/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/letsmakecakes/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/letsmakecakes/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/letsmakecakes/DSA/tree/master/0141-linked-list-cycle) |
@@ -36,6 +37,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0144-binary-tree-preorder-traversal) |
@@ -146,6 +148,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/letsmakecakes/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/letsmakecakes/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/letsmakecakes/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/letsmakecakes/DSA/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
@@ -231,6 +234,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/letsmakecakes/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0032-longest-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
@@ -249,6 +253,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0316-remove-duplicate-letters](https://github.com/letsmakecakes/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 ## Queue
