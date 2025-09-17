@@ -165,6 +165,7 @@
 | [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 | [0932-monotonic-array](https://github.com/letsmakecakes/DSA/tree/master/0932-monotonic-array) |
+| [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
@@ -214,6 +215,7 @@
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
+| [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 ## String
 |  |
@@ -230,6 +232,7 @@
 | [0316-remove-duplicate-letters](https://github.com/letsmakecakes/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [0459-repeated-substring-pattern](https://github.com/letsmakecakes/DSA/tree/master/0459-repeated-substring-pattern) |
+| [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
 | [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
 | [1904-second-largest-digit-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/1904-second-largest-digit-in-a-string) |
 ## Dynamic Programming
