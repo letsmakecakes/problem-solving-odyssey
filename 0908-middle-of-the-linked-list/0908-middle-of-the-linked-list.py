@@ -5,18 +5,29 @@
 #         self.next = next
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # If the list is empty, return None
-        if not head:
-            return None
-        
-        # Initialize two pointers. Fast pointer moves two steps at a time, slow pointer moves one step.
-        fast_ptr = head
-        slow_ptr = head
+        """
+        Find the middle node of a linked list using the two-pointer technique.
 
-        # Traverse the list
-        while fast_ptr and fast_ptr.next:
-            fast_ptr = fast_ptr.next.next
-            slow_ptr = slow_ptr.next
+        For lists with even length, returns the second middle node.
+        Time complexity: O(n), Space complexity: O(1)
+
+        Args:
+            head: The head of the singly-linked list
+
+        Returns:
+            The middle node of the list, or None if list is empty
+        """
+        # Handle edge cases: empty list
+        if not head:
+            return head
         
-        # When fast pointer reaches the end, slow pointer will be at the middle
-        return slow_ptr
+        # Initialize both pointers to head
+        slow = fast = head
+
+        # Move slow pointer one step and fast pointer two steps
+        # When fast reaches the end, slow will be at the middle
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        
+        return slow
