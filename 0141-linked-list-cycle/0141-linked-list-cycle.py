@@ -6,22 +6,24 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        # If the list is empty, there is no cycle
-        if not head:
-            return False
+        """
+        Detects if a linked list contains a cycle using Floyd's algorithm.
         
-        # Initialize two pointers
-        fast_ptr = head
-        slow_ptr = head
+        Uses two pointers moving at different speeds - if there's a cycle,
+        they will eventually meet.
+        
+        Args:
+            head: The head node of the linked list
+            
+        Returns:
+            True if the list contains a cycle, False otherwise
+        """
+        slow = fast = head
 
-        # Traverse the list with two pointers
-        while fast_ptr and fast_ptr.next:
-            fast_ptr = fast_ptr.next.next # Move fast_ptr two steps
-            slow_ptr = slow_ptr.next      # Move slow_ptr one step
-
-            # Check if the two pointers meet
-            if fast_ptr == slow_ptr:
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
                 return True
         
-        # If we reach here, there is no cycle
         return False
