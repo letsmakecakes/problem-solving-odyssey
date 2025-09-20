@@ -13,6 +13,7 @@
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0147-insertion-sort-list](https://github.com/letsmakecakes/DSA/tree/master/0147-insertion-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/letsmakecakes/DSA/tree/master/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0206-reverse-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0838-design-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0908-middle-of-the-linked-list) |
@@ -61,6 +62,7 @@
 | [0025-reverse-nodes-in-k-group](https://github.com/letsmakecakes/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/letsmakecakes/DSA/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/letsmakecakes/DSA/tree/master/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0206-reverse-linked-list) |
 | [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
 | [1013-fibonacci-number](https://github.com/letsmakecakes/DSA/tree/master/1013-fibonacci-number) |
 ## Divide and Conquer
