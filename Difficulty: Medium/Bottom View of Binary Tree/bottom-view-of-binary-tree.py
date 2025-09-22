@@ -1,123 +1,61 @@
-#User function Template for python3
+from collections import deque
+
+'''
+class Node:
+    def __init__(self, val):
+        self.right = None
+        self.data = val
+        self.left = None
+'''
 
 class Solution:
     def bottomView(self, root):
+        """
+        Returns the bottom view of a binary tree using BFS and horizontal distance mapping.
+        
+        The bottom view consists of nodes that are visible when the tree is viewed from below.
+        We use horizontal distance (HD) to track position relative to root:
+        - Root has HD = 0
+        - Left child has HD = parent_HD - 1  
+        - Right child has HD = parent_HD + 1
+        
+        Unlike top view, we keep updating nodes at each HD to get the bottommost node.
+        
+        Time Complexity: O(n) where n is the number of nodes
+        Space Complexity: O(n) for queue and hashmap storage
+        
+        Args:
+            root: Root node of the binary tree
+            
+        Returns:
+            List of integers representing the bottom view from left to right
+        """
         if not root:
             return []
         
-        bottom_view_map = {}
-        queue = deque([(root, 0)]) 
+        # Map to store the bottommost node at each horizontal distance
+        hd_map: Dict[int, Node] = {}
+        
+        # BFS queue storing (node, horizontal_distance) pairs
+        queue = deque([(root, 0)])
+        min_hd = max_hd = 0
+        
         while queue:
-            node, vd = queue.popleft() 
-            bottom_view_map[vd] = node # Store the node's data instead of the node itself
+            node, horizontal_distance = queue.popleft()
             
+            # Always update the node at this horizontal distance
+            # (later nodes in BFS will be at lower levels, hence "bottom")
+            hd_map[horizontal_distance] = node
+            
+            # Track the range of horizontal distances
+            min_hd = min(min_hd, horizontal_distance)
+            max_hd = max(max_hd, horizontal_distance)
+            
+            # Add children with updated horizontal distances
             if node.left:
-                queue.append((node.left, vd - 1))
+                queue.append((node.left, horizontal_distance - 1))
             if node.right:
-                queue.append((node.right, vd + 1))
+                queue.append((node.right, horizontal_distance + 1))
         
-        min_vd = min(bottom_view_map.keys())
-        max_vd = max(bottom_view_map.keys())
-        
-        # Collecting the bottom view nodes in order from leftmost vertical distance to rightmost
-        bottom_view = [bottom_view_map[vd].data for vd in range(min_vd, max_vd + 1)]
-        
-        return bottom_view
-
-
-#{ 
- # Driver Code Starts
-#Initial Template for Python 3
-
-import sys
-sys.setrecursionlimit(50000)
-#Contributed by Sudarshan Sharma
-from collections import deque
-from collections import defaultdict
-# Tree Node
-class Node:
-    def __init__(self, val):
-        self.right = None
-        self.data = val
-        self.left = None
-
-'''
-class Node:
-    def __init__(self, val):
-        self.right = None
-        self.data = val
-        self.left = None
-'''
-
-# Function to Build Tree   
-def buildTree(s):
-    #Corner Case
-    if(len(s)==0 or s[0]=="N"):           
-        return None
-        
-    # Creating list of strings from input 
-    # string after spliting by space
-    ip=list(map(str,s.split()))
-    
-    # Create the root of the tree
-    root=Node(int(ip[0]))                     
-    size=0
-    q=deque()
-    
-    # Push the root to the queue
-    q.append(root)                            
-    size=size+1 
-    
-    # Starting from the second element
-    i=1                                       
-    while(size>0 and i<len(ip)):
-        # Get and remove the front of the queue
-        currNode=q[0]
-        q.popleft()
-        size=size-1
-        
-        # Get the current node's value from the string
-        currVal=ip[i]
-        
-        # If the left child is not null
-        if(currVal!="N"):
-            
-            # Create the left child for the current node
-            currNode.left=Node(int(currVal))
-            
-            # Push it to the queue
-            q.append(currNode.left)
-            size=size+1
-        # For the right child
-        i=i+1
-        if(i>=len(ip)):
-            break
-        currVal=ip[i]
-        
-        # If the right child is not null
-        if(currVal!="N"):
-            
-            # Create the right child for the current node
-            currNode.right=Node(int(currVal))
-            
-            # Push it to the queue
-            q.append(currNode.right)
-            size=size+1
-        i=i+1
-    return root
-    
-    
-if __name__=="__main__":
-    t=int(input())
-    for _ in range(0,t):
-        s=input()
-        root=buildTree(s)
-        ob = Solution()
-        res = ob.bottomView(root)
-        for i in res:
-            print (i, end = " ")
-        print()
-
-
-        print("~")
-# } Driver Code Ends
+        # Build result using range from min to max horizontal distance
+        return [hd_map[hd].data for hd in range(min_hd, max_hd + 1)]
