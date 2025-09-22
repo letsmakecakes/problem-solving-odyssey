@@ -1,3 +1,5 @@
+from collections import deque
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -6,23 +8,33 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        """
+        Returns the right side view of a binary tree using BFS approach.
+
+        Time Complexity: O(n) where n is the number of nodes
+        Space Complexity: O(w) where w is the maximum width of the tree
+        """
         if not root:
             return []
         
-        # List to store the right side view
-        right_side_view = []
+        result = []
+        queue = deque([root])
 
-        def traverse(current, level):
-            if not current:
-                return
-            
-            # If this the first time we are visiting this level, add the node's value
-            if level == len(right_side_view):
-                right_side_view.append(current.val)
-            
-            # Traverse the right subtree first, then the left subtree
-            traverse(current.right, level + 1)
-            traverse(current.left, level + 1)
+        while queue:
+            level_size = len(queue)
+
+            # Process all nodes at the current level
+            for i in range(level_size):
+                node = queue.popleft()
+
+                # The last node at each level is the rightmost
+                if i == level_size - 1:
+                    result.append(node.val)
+                
+                # Add children for next level
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
         
-        traverse(root, 0)
-        return right_side_view
+        return result
