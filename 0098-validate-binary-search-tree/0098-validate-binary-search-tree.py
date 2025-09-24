@@ -6,19 +6,34 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        results = []
+        """
+        Validate if a binary tree is a valid Binary Search Tree.
         
-        def traverse(current_node):
-            if current_node is None:
-                return
-            traverse(current_node.left)
-            results.append(current_node.val)
-            traverse(current_node.right)
+        Time Complexity: O(n) where n is the number of nodes
+        Space Complexity: O(h) where h is the height of the tree (recursion stack)
         
-        traverse(root)
-        
-        for i in range(1, len(results)):
-            if results[i] <= results[i-1]:
+        Args:
+            root: Root node of the binary tree
+            
+        Returns:
+            True if the tree is a valid BST, False otherwise
+        """
+        self.prev_val = float('-inf')
+
+        def inorder(node: Optional[TreeNode]) -> bool:
+            if not node:
+                return True
+            
+            # Check left subtree
+            if not inorder(node.left):
                 return False
+            
+            # Check current node against previous value
+            if node.val <= self.prev_val:
+                return False
+            self.prev_val = node.val
+
+            # Check right subtree
+            return inorder(node.right)
         
-        return True
+        return inorder(root)
