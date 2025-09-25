@@ -56,6 +56,7 @@
 | [0225-implement-stack-using-queues](https://github.com/letsmakecakes/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0316-remove-duplicate-letters](https://github.com/letsmakecakes/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
+| [0682-baseball-game](https://github.com/letsmakecakes/DSA/tree/master/0682-baseball-game) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
 ## Recursion
 |  |
@@ -177,6 +178,7 @@
 | [0287-find-the-duplicate-number](https://github.com/letsmakecakes/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
+| [0682-baseball-game](https://github.com/letsmakecakes/DSA/tree/master/0682-baseball-game) |
 | [0932-monotonic-array](https://github.com/letsmakecakes/DSA/tree/master/0932-monotonic-array) |
 | [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
@@ -293,6 +295,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/letsmakecakes/DSA/tree/master/0682-baseball-game) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
 ## Memoization
 |  |
