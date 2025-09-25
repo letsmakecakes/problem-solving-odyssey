@@ -250,6 +250,7 @@
 | [0344-reverse-string](https://github.com/letsmakecakes/DSA/tree/master/0344-reverse-string) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [0459-repeated-substring-pattern](https://github.com/letsmakecakes/DSA/tree/master/0459-repeated-substring-pattern) |
+| [0742-to-lower-case](https://github.com/letsmakecakes/DSA/tree/master/0742-to-lower-case) |
 | [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
 | [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
 | [1904-second-largest-digit-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/1904-second-largest-digit-in-a-string) |
