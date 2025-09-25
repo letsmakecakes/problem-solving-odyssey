@@ -243,6 +243,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0032-longest-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/letsmakecakes/DSA/tree/master/0038-count-and-say) |
+| [0058-length-of-last-word](https://github.com/letsmakecakes/DSA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/letsmakecakes/DSA/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/letsmakecakes/DSA/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/letsmakecakes/DSA/tree/master/0316-remove-duplicate-letters) |
