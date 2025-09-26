@@ -1,27 +1,29 @@
-from enum import Enum
-
-class Operations(Enum):
-    PUSH = "Push"
-    POP = "Pop"
-
 class Solution:
     def buildArray(self, target: List[int], n: int) -> List[str]:
-        result = []
-        prev_num = 0
+        """
+        Build an array using stack operations to match the target array.
 
-        for current_num in target:
-            # Calculate how many numbers we need to skip
-            skipped_count = current_num - prev_num - 1
+        Args:
+            target: List of integers to build (assumed to be stored and within [1, n])
+            n: Upper bound for the stream of integers [1, 2, ..., n]
 
-            # For each skipped number, add a PUSH followed by a POP
-            for _ in range(skipped_count):
-                result.append(Operations.PUSH.value)
-                result.append(Operations.POP.value)
+        Returns:
+            List of stack operations ("Push" or "Pop") to build the target array
+        """
+        if not target:
+            return []
+        
+        operations = []
+        current_stream_value = 1
+        
+        for target_value in target:
+            # For each number we need to skip, push then pop
+            while current_stream_value < target_value:
+                operations.extend(["Push", "Pop"])
+                current_stream_value += 1
             
-            # Add a PUSH for the current target number
-            result.append(Operations.PUSH.value)
-
-            # Update previous number
-            prev_num = current_num
-
-        return result
+            # Push the target value (no pop needed as we want to keep it)
+            operations.append("Push")
+            current_stream_value += 1
+        
+        return operations
