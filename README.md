@@ -252,6 +252,7 @@
 | [0344-reverse-string](https://github.com/letsmakecakes/DSA/tree/master/0344-reverse-string) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [0459-repeated-substring-pattern](https://github.com/letsmakecakes/DSA/tree/master/0459-repeated-substring-pattern) |
+| [0657-robot-return-to-origin](https://github.com/letsmakecakes/DSA/tree/master/0657-robot-return-to-origin) |
 | [0742-to-lower-case](https://github.com/letsmakecakes/DSA/tree/master/0742-to-lower-case) |
 | [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
 | [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
@@ -295,6 +296,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0657-robot-return-to-origin](https://github.com/letsmakecakes/DSA/tree/master/0657-robot-return-to-origin) |
 | [0682-baseball-game](https://github.com/letsmakecakes/DSA/tree/master/0682-baseball-game) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
 ## Memoization
