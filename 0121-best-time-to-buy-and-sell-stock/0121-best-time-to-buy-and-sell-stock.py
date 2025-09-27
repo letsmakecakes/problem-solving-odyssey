@@ -1,15 +1,6 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        """
-        Calculate maximum profit from buying and selling stock once.
-
-        Args:
-            prices: List of stock prices where prices[i] is the price on day i
-
-        Returns:
-            Maximum profit achievable, or 0 if no profit possible
-        """
-        if len(prices) < 2:
+        if not prices:
             return 0
         
         min_price = float('inf')
