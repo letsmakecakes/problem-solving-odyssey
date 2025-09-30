@@ -1,36 +1,32 @@
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
-        Sort an array of 0s, 1s, and 2s in-place using the Dutch National Flag algorithm.
-        This is also known as the 3-way partitioning problem.
+        Dutch National Flag algorithm (3-way partitioning).
+        Sorts array of 0s, 1s, and 2s in-place in O(n) time, O(1) space.
 
-        Args:
-            nums: List[int] - Array containing only 0s, 1s, and 2s
-        
-        Modifies the input array in-place.
-
-        Time Complexity: O(n) - single pass algorithm
-        Space Complexity: O(1) - constant extra space
+        Invariants:
+        - nums[0:low] contains all 0s
+        - nums[low:mid] contains all 1s
+        - nums[mid:high+1] contains unprocessed elements
+        - nums[high+1:] contains all 2s
         """
-        # Edge case: array with 0 or 1 element
-        if len(nums) <= 1:
+        if not nums or len(nums) <= 1:
             return
         
-        # Initialize pointers
-        left = 0                # pointer for 0s (left section)
-        current = 0             # current element being examined
-        right = len(nums) - 1   # pointer for 2s (right section)
-
-        while current <= right:
-            if nums[current] == 0:
-                # Swap current element with left pointer
-                nums[left], nums[current] = nums[current], nums[left]
-                left += 1
-                current += 1
-            elif nums[current] == 2:
-                # Swap the current element with right pointer
-                nums[right], nums[current] = nums[current], nums[right]
-                right -= 1
-            else: # nums[current] == 1
-                # 1s stay in the middle section
-                current += 1
+        low = mid = 0
+        high = len(nums) - 1
+        
+        while mid <= high:
+            if nums[mid] == 0:
+                # Swap with low boundary and advance both pointers
+                nums[low], nums[mid] = nums[mid], nums[low]
+                mid += 1
+                low += 1
+            elif nums[mid] == 1:
+                # Already in correct position
+                mid += 1
+            else: # nums[mid] == 2
+                # Swap with high boundary, don't advance mid
+                # (need to check the swapped element)
+                nums[mid], nums[high] = nums[high], nums[mid]
+                high -= 1
