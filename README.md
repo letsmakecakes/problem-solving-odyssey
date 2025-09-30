@@ -184,6 +184,7 @@
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
+| [3206-find-common-elements-between-two-arrays](https://github.com/letsmakecakes/DSA/tree/master/3206-find-common-elements-between-two-arrays) |
 ## Hash Table
 |  |
 | ------- |
@@ -198,6 +199,7 @@
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
 | [1904-second-largest-digit-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/1904-second-largest-digit-in-a-string) |
+| [3206-find-common-elements-between-two-arrays](https://github.com/letsmakecakes/DSA/tree/master/3206-find-common-elements-between-two-arrays) |
 ## Math
 |  |
 | ------- |
