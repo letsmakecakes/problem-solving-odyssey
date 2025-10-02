@@ -15,6 +15,7 @@
 | [0147-insertion-sort-list](https://github.com/letsmakecakes/DSA/tree/master/0147-insertion-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/letsmakecakes/DSA/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0206-reverse-linked-list) |
+| [0237-delete-node-in-a-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0838-design-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/letsmakecakes/DSA/tree/master/0908-middle-of-the-linked-list) |
