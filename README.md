@@ -169,6 +169,7 @@
 | [0073-set-matrix-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/letsmakecakes/DSA/tree/master/0088-merge-sorted-array) |
+| [0118-pascals-triangle](https://github.com/letsmakecakes/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/letsmakecakes/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/letsmakecakes/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -268,6 +269,7 @@
 | [0032-longest-valid-parentheses](https://github.com/letsmakecakes/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
+| [0118-pascals-triangle](https://github.com/letsmakecakes/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
 | [1013-fibonacci-number](https://github.com/letsmakecakes/DSA/tree/master/1013-fibonacci-number) |
