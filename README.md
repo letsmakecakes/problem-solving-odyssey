@@ -166,6 +166,7 @@
 | [0042-trapping-rain-water](https://github.com/letsmakecakes/DSA/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/letsmakecakes/DSA/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/letsmakecakes/DSA/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/letsmakecakes/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/letsmakecakes/DSA/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -191,6 +192,7 @@
 | [0001-two-sum](https://github.com/letsmakecakes/DSA/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/letsmakecakes/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/letsmakecakes/DSA/tree/master/0013-roman-to-integer) |
+| [0073-set-matrix-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/letsmakecakes/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/letsmakecakes/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
@@ -329,4 +331,8 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/letsmakecakes/DSA/tree/master/0014-longest-common-prefix) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
