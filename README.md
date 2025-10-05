@@ -100,6 +100,7 @@
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/letsmakecakes/DSA/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0904-leaf-similar-trees](https://github.com/letsmakecakes/DSA/tree/master/0904-leaf-similar-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Search Tree
 |  |
@@ -131,6 +132,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0904-leaf-similar-trees](https://github.com/letsmakecakes/DSA/tree/master/0904-leaf-similar-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
@@ -146,6 +148,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0904-leaf-similar-trees](https://github.com/letsmakecakes/DSA/tree/master/0904-leaf-similar-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
