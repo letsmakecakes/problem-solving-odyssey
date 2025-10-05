@@ -188,6 +188,7 @@
 | [0682-baseball-game](https://github.com/letsmakecakes/DSA/tree/master/0682-baseball-game) |
 | [0932-monotonic-array](https://github.com/letsmakecakes/DSA/tree/master/0932-monotonic-array) |
 | [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
+| [1319-unique-number-of-occurrences](https://github.com/letsmakecakes/DSA/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/letsmakecakes/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/letsmakecakes/DSA/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
@@ -208,6 +209,7 @@
 | [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
 | [0496-next-greater-element-i](https://github.com/letsmakecakes/DSA/tree/master/0496-next-greater-element-i) |
+| [1319-unique-number-of-occurrences](https://github.com/letsmakecakes/DSA/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/letsmakecakes/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1904-second-largest-digit-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/1904-second-largest-digit-in-a-string) |
 | [3206-find-common-elements-between-two-arrays](https://github.com/letsmakecakes/DSA/tree/master/3206-find-common-elements-between-two-arrays) |
