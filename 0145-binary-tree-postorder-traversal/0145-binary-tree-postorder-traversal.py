@@ -7,35 +7,21 @@
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         """
-        Perform postorder traversal iteratively (Left -> Right -> Root).
-        Uses a single stack with last visited tracking.
+        Performs postoder traversal (Left -> Right -> Root) on a binary tree.
 
-        Time: O(n) where n is number of nodes
-        Space: O(h) where h is tree height
+        Time Complexity: O(n) where n is the number of nodes
+        Space Complexity: O(h) where h is the height (recursion stack)
         """
-        if not root:
-            return []
-        
         result = []
-        stack = []
-        current = root
-        last_visited = None
-
-        while current or stack:
-            # Go as far left as possible
-            while current:
-                stack.append(current)
-                current = current.left
-            
-            # Peek at the top node
-            peek = stack[-1]
-
-            # If right child exists and hasn't been visited yet
-            if peek.right and last_visited != peek.right:
-                current = peek.right
-            else:
-                # Process current node
-                result.append(peek.val)
-                last_visited = stack.pop()
-        
+        self._postorder_helper(root, result)
         return result
+
+
+    def _postorder_helper(self, node: Optional[TreeNode], result: List[int]) -> None:
+        """Helper function for recursive postorder traversal."""
+        if not node:
+            return
+
+        self._postorder_helper(node.left, result)
+        self._postorder_helper(node.right, result)
+        result.append(node.val)
