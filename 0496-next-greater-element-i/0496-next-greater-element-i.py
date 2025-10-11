@@ -1,25 +1,30 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        # Create a dictionary to store next greater elements
-        next_greater = {}
+        # Build next greater element mapping for nums2
+        next_greater = self._build_next_greater_map(nums2)
 
-        # Create a stack to track elements
+        # Map results for nums1
+        return [next_greater.get(num, -1) for num in nums1]
+
+        
+    def _build_next_greater_map(self, nums: List[int]) -> dict[int, int]:
+        """
+        Build a mapping of each number to its next greater element using a monotonic stack.
+
+        Args:
+            nums: Array of numbers to process
+        
+        Returns:
+            Dictionary mapping eachg number to its next greater element
+        """
+        next_greater = {}
         stack = []
 
-        # Process nums2 to find next greater elements
-        for num in nums2:
-            # While stack is not empty and current number is greater than top of stack
+        for num in nums:
+            # Pop all smaller elements and set current num as their next greater
             while stack and stack[-1] < num:
-                # Pop element and set its next greater element
                 next_greater[stack.pop()] = num
-            # Push current number to stack
+            
             stack.append(num)
-        
-        # Create result array for nums1
-        result = []
 
-        # Fill result array using the dictionary
-        for num in nums1:
-            result.append(next_greater.get(num, -1))
-        
-        return result
+        return next_greater
