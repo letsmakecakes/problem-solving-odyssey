@@ -1,40 +1,24 @@
+from collections import deque
+
 class MyStack:
+
     def __init__(self):
-        """
-        Initialize your data structure here.
-        """
         self.queue = deque()
 
     def push(self, x: int) -> None:
-        """
-        Push element x onto stack.
-        """
         self.queue.append(x)
-        # Rotate the queue to maintain stack order
+        # Rotate the queue to make the newest element at the front
         for _ in range(len(self.queue) - 1):
             self.queue.append(self.queue.popleft())
 
     def pop(self) -> int:
-        """
-        Removes and returns the element on top of the stack.
-        """
-        if not self.empty():
-            return self.queue.popleft()
-        raise IndexError("pop from an empty stack")
+        return self.queue.popleft()    
 
     def top(self) -> int:
-        """
-        Get the top element.
-        """
-        if not self.empty():
-            return self.queue[0]
-        raise IndexError("peek at empty stack")
+        return self.queue[0]
 
     def empty(self) -> bool:
-        """
-        Returns whether the stack is empty.
-        """
-        return len(self.queue) == 0
+        return not self.queue
 
 
 # Your MyStack object will be instantiated and called as such:
