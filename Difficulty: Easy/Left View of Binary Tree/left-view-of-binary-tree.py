@@ -1,43 +1,48 @@
 from collections import deque
 
-'''
-# Node Class:
+''' 
 class Node:
-    def _init_(self,val):
+
+    def __init__(self, val):
         self.data = val
-        self.left = None
         self.right = None
+        self.left = None 
 '''
 
 class Solution:
-    def LeftView(self, root):
+    def leftView(self, root):
         """
-        Returns the left view of a binary tree using BFS approach.
+        Returns the left view of a binary tree using level-order traversal.
         
-        Time Complexity: O(n) where n is the number of nodes
-        Space Complexity: O(w) here w is the maximum width of the tree
+        Args:
+            root: The root node of the binary tree
+        
+        Returns:
+            List of values representing the left view of the tree
         """
+        # Handle edge case: empty tree
         if not root:
             return []
-        
-        result = []
+            
         queue = deque([root])
+        left_view = []
         
         while queue:
             level_size = len(queue)
             
-            # Process all nodes at the current level
+            # Process all nodes at current level
             for i in range(level_size):
                 node = queue.popleft()
                 
-                # The first node at each level is the leftmost
+                # First node at each level is part of left view
                 if i == 0:
-                    result.append(node.data)
+                    left_view.append(node.data)
                 
-                # Add children for next level
+                # Add children to queue for next level
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
+                
         
-        return result
+        return left_view
