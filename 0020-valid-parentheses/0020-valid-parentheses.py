@@ -1,32 +1,26 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        """
-        Determine if string has valid parentheses/bracket/brace pairs.
-
-        Args:
-            s (str): String containing parentheses/brackets/braces
+        if not s:
+            return True
         
-        Returns:
-            bool: True if all pairs are valid and properly nested, False otherwise
-        """
-        # Dictionary mapping closing brackets to their corresponding opening brackets
-        brackets = {
-            ')': '(',
-            '}': '{',
-            ']': '['
-        }
-
+        # Mapping of closing to opening brackets
+        matching = {')': '(', '}': '{', ']': '['}
         stack = []
 
         for char in s:
-            # If it's an opening bracket, add to stack
-            if char not in brackets:
+            # Check if character is a valid bracket
+            if char not in matching and char not in matching.values():
+                return False
+            
+            # If it's an opening bracket, push to stack
+            if char in matching.values():
                 stack.append(char)
             # If it's a closing bracket
             else:
-                # Check if stack is empty or if brackets don't match
-                if not stack or stack.pop() != brackets[char]:
+                # Check if stack is empty or top doesn't match
+                if not stack or stack[-1] != matching[char]:
                     return False
+                stack.pop()
         
-        # String is valid only if stack is empty
+        # Valid if stack is empty
         return len(stack) == 0
