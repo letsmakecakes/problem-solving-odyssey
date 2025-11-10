@@ -1,32 +1,26 @@
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
-        Dutch National Flag algorithm (3-way partitioning).
-        Sorts array of 0s, 1s, and 2s in-place in O(n) time, O(1) space.
-
-        Invariants:
-        - nums[0:low] contains all 0s
-        - nums[low:mid] contains all 1s
-        - nums[mid:high+1] contains unprocessed elements
-        - nums[high+1:] contains all 2s
+        Sort array containing only 0s, 1s, and 2s in-place using Dutch National Flag algorithm.
+        Time: O(n), Space: O(1)
         """
-        if not nums or len(nums) <= 1:
-            return
+        # Define color constants for better readability
+        RED, WHITE, BLUE = 0, 1, 2
         
-        low = mid = 0
-        high = len(nums) - 1
+        # Pointers: left tracks position for next 0, right tracks position for next 2
+        left, current, right = 0, 0, len(nums) - 1
         
-        while mid <= high:
-            if nums[mid] == 0:
-                # Swap with low boundary and advance both pointers
-                nums[low], nums[mid] = nums[mid], nums[low]
-                mid += 1
-                low += 1
-            elif nums[mid] == 1:
-                # Already in correct position
-                mid += 1
-            else: # nums[mid] == 2
-                # Swap with high boundary, don't advance mid
-                # (need to check the swapped element)
-                nums[mid], nums[high] = nums[high], nums[mid]
-                high -= 1
+        while current <= right:
+            if nums[current] == RED:
+                # Move red (0) to the left section
+                nums[left], nums[current] = nums[current], nums[left]
+                left += 1
+                current += 1
+            elif nums[current] == WHITE:
+                # White (1) is already in correct section, just move forward
+                current += 1
+            else:  # nums[current] == BLUE
+                # Move blue (2) to the right section
+                nums[current], nums[right] = nums[right], nums[current]
+                right -= 1
+                # Don't increment current - need to check swapped element
