@@ -8,22 +8,22 @@ class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         """
         Performs preorder traversal of a binary tree.
-        
-        Args:
-            root: The root node of the binary tree
-            
-        Returns:
-            List of node values in preorder sequence
+        Time: O(n), Space: O(h) where h is the height
         """
-        result = []
-        self._traverse(root, result)
-        return result
-    
-    def _traverse(self, node: Optional[TreeNode], result: List[int]) -> None:
-        """Helper method to perform recursive traversal."""
-        if node is None:
-            return
+        if not root:
+            return []
         
-        result.append(node.val)
-        self._traverse(node.left, result)
-        self._traverse(node.right, result)
+        result = []
+        stack = [root]
+
+        while stack:
+            node = stack.pop()
+            result.append(node.val)
+
+            # Push the right first so left is processed first
+            if node.right:
+                stack.append(node.right)
+            if node.left:
+                stack.append(node.left)
+        
+        return result
