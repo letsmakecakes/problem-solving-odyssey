@@ -7,19 +7,24 @@
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         """
-        Perform inorder traversal (;eft -> root -> right) of a binary tree.
-        Returns list of node values in inorder sequence.
+        Iterative inorder traversal using a stack.
+        Time: O(n), Space: O(h) where h is tree height
         """
         result = []
-        self._inorder_helper(root, result)
-        return result
-        
-    def _inorder_helper(self, node: Optional[TreeNode], result: List[int]) -> None:
-        """Helper method for recursive inorder traversal."""
-        if not node:
-            return
+        stack = []
+        node = root
+
+        while node or stack:
+            # Traverse to leftmost node, pushing all nodes onto stack
+            while node:
+                stack.append(node)
+                node = node.left
             
-        self._inorder_helper(node.left, result)
-        result.append(node.val)
-        self._inorder_helper(node.right, result)
+            # Process node (visit after left subtree)
+            node = stack.pop()
+            result.append(node.val)
+
+            # Explore right subtree
+            node = node.right
         
+        return result
