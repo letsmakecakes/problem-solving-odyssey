@@ -1,16 +1,9 @@
 class Solution:
     def secondHighest(self, s: str) -> int:
-        first = float('-inf')
-        second = float('-inf')
+        digits = {int(ch) for ch in s if ch.isdigit()}
 
-        for ch in s:
-            if ch.isdigit():
-                num = int(ch)
-                
-                if num > first:
-                    second = first
-                    first = num
-                elif num != first and num > second:
-                    second = num
+        if len(digits) < 2:
+            return -1
         
-        return second if second != float('-inf') else -1
+        sorted_digits = sorted(digits, reverse=True)
+        return sorted_digits[1]
