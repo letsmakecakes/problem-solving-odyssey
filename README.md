@@ -98,6 +98,7 @@
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/letsmakecakes/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/letsmakecakes/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/letsmakecakes/DSA/tree/master/0199-binary-tree-right-side-view) |
@@ -134,6 +135,7 @@
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/letsmakecakes/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/letsmakecakes/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/letsmakecakes/DSA/tree/master/0199-binary-tree-right-side-view) |
@@ -152,6 +154,7 @@
 | [0098-validate-binary-search-tree](https://github.com/letsmakecakes/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/letsmakecakes/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/letsmakecakes/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/letsmakecakes/DSA/tree/master/0199-binary-tree-right-side-view) |
@@ -300,6 +303,7 @@
 | [0096-unique-binary-search-trees](https://github.com/letsmakecakes/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/letsmakecakes/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/letsmakecakes/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/letsmakecakes/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
 | [1013-fibonacci-number](https://github.com/letsmakecakes/DSA/tree/master/1013-fibonacci-number) |
 ## String Matching
