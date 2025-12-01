@@ -245,6 +245,7 @@
 | [0233-number-of-digit-one](https://github.com/letsmakecakes/DSA/tree/master/0233-number-of-digit-one) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/letsmakecakes/DSA/tree/master/1013-fibonacci-number) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/letsmakecakes/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/letsmakecakes/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1903-largest-odd-number-in-string](https://github.com/letsmakecakes/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/letsmakecakes/DSA/tree/master/1950-sign-of-the-product-of-an-array) |
@@ -290,6 +291,7 @@
 | [0657-robot-return-to-origin](https://github.com/letsmakecakes/DSA/tree/master/0657-robot-return-to-origin) |
 | [0742-to-lower-case](https://github.com/letsmakecakes/DSA/tree/master/0742-to-lower-case) |
 | [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/letsmakecakes/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1796-second-largest-digit-in-a-string](https://github.com/letsmakecakes/DSA/tree/master/1796-second-largest-digit-in-a-string) |
 | [1894-merge-strings-alternately](https://github.com/letsmakecakes/DSA/tree/master/1894-merge-strings-alternately) |
 | [1903-largest-odd-number-in-string](https://github.com/letsmakecakes/DSA/tree/master/1903-largest-odd-number-in-string) |
