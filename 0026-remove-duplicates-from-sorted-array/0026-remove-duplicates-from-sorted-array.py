@@ -1,30 +1,39 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         """
-        Remove duplicates in-place from a sorted array and return the number of unqiue elements..
-
-        Args:
-            nums: A sorted array of integers
+        Remove duplicates from a sorted array in-place.
         
+        Uses two-pointer technique to maintain unique elements at the start
+        of the array while preserving their original order.
+        
+        Args:
+            nums: Sorted list of integers (modified in-place)
+            
         Returns:
-            The number of unique elements in the array
+            Number of unique elements (k), where first k elements are unique
+            
+        Examples:
+            >>> nums = [1, 1, 2]
+            >>> removeDuplicates(nums)
+            2  # nums becomes [1, 2, _]
+            
+            >>> nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+            >>> removeDuplicates(nums)
+            5  # nums becomes [0, 1, 2, 3, 4, _, _, _, _, _]
         """
-        # Handle empty array case
+        # Edge case: empty array
         if not nums:
             return 0
         
-        # Use two-pointer technique to track unique elements
-        # left pointer keeps trck of the position for the next unique element
-        unique_position = 0
+        # write_index points to position where next unique element should go
+        write_index  = 0
 
-        # Iterate through the array starting from the second element
-        for current in range(1, len(nums)):
-            # When we find a new unique element
-            if nums[current] != nums[unique_position]:
-                # Move unique_position forward
-                unique_position += 1
-                # Place the new unique element at the next position in our result
-                nums[unique_position] = nums[current]
+        # Iterate through array starting from second element
+        for read_index in range(1, len(nums)):
+            # Found a new unique element
+            if nums[read_index] != nums[write_index]:
+                write_index += 1
+                nums[write_index] = nums[read_index]
         
-        # unique_position is zero-indexed, so add 1 to get the count
-        return unique_position + 1
+        # Return count of unique elements (index + 1)
+        return write_index + 1
