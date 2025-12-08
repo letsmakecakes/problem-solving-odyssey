@@ -237,6 +237,7 @@
 | [0141-linked-list-cycle](https://github.com/letsmakecakes/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/letsmakecakes/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/letsmakecakes/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0205-isomorphic-strings](https://github.com/letsmakecakes/DSA/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/letsmakecakes/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/letsmakecakes/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/letsmakecakes/DSA/tree/master/0347-top-k-frequent-elements) |
@@ -299,6 +300,7 @@
 | [0058-length-of-last-word](https://github.com/letsmakecakes/DSA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/letsmakecakes/DSA/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/letsmakecakes/DSA/tree/master/0179-largest-number) |
+| [0205-isomorphic-strings](https://github.com/letsmakecakes/DSA/tree/master/0205-isomorphic-strings) |
 | [0316-remove-duplicate-letters](https://github.com/letsmakecakes/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/letsmakecakes/DSA/tree/master/0344-reverse-string) |
 | [0389-find-the-difference](https://github.com/letsmakecakes/DSA/tree/master/0389-find-the-difference) |
