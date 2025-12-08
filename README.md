@@ -169,6 +169,7 @@
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0841-keys-and-rooms](https://github.com/letsmakecakes/DSA/tree/master/0841-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/letsmakecakes/DSA/tree/master/0904-leaf-similar-trees) |
+| [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/letsmakecakes/DSA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -186,6 +187,7 @@
 | [0764-n-ary-tree-level-order-traversal](https://github.com/letsmakecakes/DSA/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0841-keys-and-rooms](https://github.com/letsmakecakes/DSA/tree/master/0841-keys-and-rooms) |
 | [0994-rotting-oranges](https://github.com/letsmakecakes/DSA/tree/master/0994-rotting-oranges) |
+| [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/letsmakecakes/DSA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Array
 |  |
@@ -395,4 +397,5 @@
 | ------- |
 | [0547-number-of-provinces](https://github.com/letsmakecakes/DSA/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/letsmakecakes/DSA/tree/master/0841-keys-and-rooms) |
+| [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/letsmakecakes/DSA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 <!---LeetCode Topics End-->
