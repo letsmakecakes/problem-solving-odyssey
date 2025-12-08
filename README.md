@@ -183,6 +183,7 @@
 | [0623-add-one-row-to-tree](https://github.com/letsmakecakes/DSA/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/letsmakecakes/DSA/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0994-rotting-oranges](https://github.com/letsmakecakes/DSA/tree/master/0994-rotting-oranges) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/letsmakecakes/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Array
 |  |
@@ -212,6 +213,7 @@
 | [0682-baseball-game](https://github.com/letsmakecakes/DSA/tree/master/0682-baseball-game) |
 | [0932-monotonic-array](https://github.com/letsmakecakes/DSA/tree/master/0932-monotonic-array) |
 | [0974-reorder-data-in-log-files](https://github.com/letsmakecakes/DSA/tree/master/0974-reorder-data-in-log-files) |
+| [0994-rotting-oranges](https://github.com/letsmakecakes/DSA/tree/master/0994-rotting-oranges) |
 | [1319-unique-number-of-occurrences](https://github.com/letsmakecakes/DSA/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/letsmakecakes/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1552-build-an-array-with-stack-operations](https://github.com/letsmakecakes/DSA/tree/master/1552-build-an-array-with-stack-operations) |
@@ -381,6 +383,7 @@
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/letsmakecakes/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0994-rotting-oranges](https://github.com/letsmakecakes/DSA/tree/master/0994-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
